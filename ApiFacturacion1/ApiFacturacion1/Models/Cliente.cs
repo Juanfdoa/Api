@@ -13,9 +13,9 @@ namespace ApiFacturacion1.Models
 
         public string Nombre { set; get; }
 
-        public int Identificacion { set; get; }
+        public decimal Identificacion { set; get; }
 
-        public int Telefono { set; get; }
+        public decimal Telefono { set; get; }
 
         public string Direccion { set; get; }
     }

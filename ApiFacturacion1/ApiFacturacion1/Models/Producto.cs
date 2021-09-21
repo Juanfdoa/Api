@@ -13,6 +13,6 @@ namespace ApiFacturacion1.Models
 
         public string Nombre { set; get; }
 
-        public int Precio { set; get; }
+        public decimal Precio { set; get; }
     }
 }

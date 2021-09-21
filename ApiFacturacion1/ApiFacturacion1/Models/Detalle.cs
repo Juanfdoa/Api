@@ -15,8 +15,8 @@ namespace ApiFacturacion1.Models
 
         public int IdProducto { set; get; }
 
-        public int Cantidad { set; get; }
+        public decimal Cantidad { set; get; }
 
-        public int Total { set; get; }
+        public decimal Total { set; get; }
     }
 }
