@@ -1,6 +1,6 @@
 # Inicio
 
-Este aplicativo fue creado con react js para la gestion de clientes, productos y proveedores
+Este aplicativo fue creado con react js y una Api rest para la gestion de clientes, productos y proveedores
 de una pequeña tienda.
 
 ## Correr la App
