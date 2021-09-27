@@ -6,6 +6,8 @@ import {Clientes} from './components/Clientes';
 import {Productos} from './components/Productos';
 import {Proveedores} from './components/Proveedores';
 import {Inicio} from './components/Inicio';
+import {Facturas} from './components/Factura';
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -30,6 +32,9 @@ function App() {
          <Link to="/Proveedores" className="btn btn-dark">
            Proveedores
          </Link>
+         <Link to="/Factura" className="btn btn-dark">
+           Facturas
+         </Link>
         </div>
          <hr />
      
@@ -42,6 +47,9 @@ function App() {
           </Route>
           <Route path="/Proveedores">
             <Proveedores />
+          </Route>
+          <Route path="/Factura">
+            <Facturas />
           </Route>
           <Route path="/">
             <Inicio />
